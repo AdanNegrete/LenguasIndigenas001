@@ -1,0 +1,17 @@
+extends baseEmail 
+
+block content
+  p Hola #{firstName},
+    p Bienvenido a Galería F.E., nos alegra que te hayas unido!🎉🙏
+    p Aquí todos somos parte de una gran familia, asegurate de actualizar tu foto de usuario para que podamos conocerte un poco mejor😁
+    table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+      tbody
+        tr
+          td(align='left')
+            table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+              tbody
+                tr
+                  td
+                    a(href=`${url}`, target='_blank') Actualizar foto de usuario
+    p Si necesitas ayuda en la compra de algún producto, por favor no dudes en contactarnos!
+    p - Fernando Mejía Pérez & Elliot Allan Chilpa García.
