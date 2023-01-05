@@ -12,3 +12,5 @@
 3.- El controlador de autenticación permite el manejo de usuarios y sesiones
 
 4.- NOTA (Documentación en Postman): "BEARER TOKEN" hace referencia al JWT (JSON Web Token) perteneciente a la sesión de usuario iniciada que es devuelto al realizar el Log In o el Sign Up
+
+5.- Para ejecutar el proyecto es necesario escribir en consola los comandos "npm install" para instalar la mayoria de librerias requeridas, y, además, el comando "npm i -g nodemon" para instalar la libreria que permitirá mantener el servidor abierto y actualizandose al modificar el código; finalmente, el script "npm start" para iniciar el servidor.
